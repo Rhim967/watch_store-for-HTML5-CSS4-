@@ -9,7 +9,7 @@ $(document).ready(function(){
               breakpoint: 992,
               settings: {
                   dots: true,
-                  arrows: false
+                  arrows: false,
               }
           }
       ]
@@ -49,4 +49,6 @@ $(document).ready(function(){
           $('.overlay, #order').fadeIn('slow');
       });
   });
+
+  $('#slick-slide-control00, #slick-slide-control01, #slick-slide-control02').empty();
 });
